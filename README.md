@@ -5,6 +5,7 @@ This is a database of clean bibtex files, managed using [pubs](https://github.co
 In your `.pubsrc` you should have the following to make sure that new entries are given the right name.
 
 ```
+[main]
 normalize_citekey = True
 citekey_format = {author_last_name:l}_{short_title}_{year}
 ```
