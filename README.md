@@ -15,3 +15,9 @@ $texfile > $bibfile`, and all citations in your tex file which exist in the
 pubs database will be output into `$bibfile`. Specifically, the script looks
 for `\cite{...}`. If you are citing in some other way, ask ChatGPT to rewrite
 `./extract.sh` to also do that.
+
+One can also do:
+
+```
+pubs export $(cat BIB_ENTRIES_FILE) > my_paper.bib
+```
